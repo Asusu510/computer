@@ -1,0 +1,388 @@
+.header{
+	padding: 5px 0;
+	background: #111111;
+}
+
+.header h4{
+	color: var(--white-color);
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.navigation {
+	display: flex;
+	/* justify-content: space-around; */
+	/* margin-top: 40px; */
+	position: relative;
+	height: 0;
+	top: 14px;
+}
+
+.nav-left{
+	flex: 1;
+	line-height: 5rem;
+}
+
+.nav-left-list{
+	list-style: none;
+	display: flex;
+	padding: 0; 
+}
+.nav-item{
+	padding: 0 20px;
+	font-weight: 600;
+
+}
+.nav-item a{
+	text-decoration: none;
+	color: #151515;
+	display: block;
+	height: 80%;
+	
+	/* transform: scaleX(0); */
+    /* transition: transform 0.5s; */
+}
+
+
+.nav-item a:hover{
+
+	border-bottom: 2px solid #151515 ;
+}
+
+
+.nav-center{
+	flex: 1;
+}
+
+.nav-center h1{
+	margin: 0;
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
+.nav-right{
+	flex: 1;
+	line-height: 5rem;
+}
+
+.nav-right-icon{
+	list-style: none;
+	display: flex;
+	float: right;
+}
+.nav-right-icon li{
+	padding: 0 15px;
+}
+.nav-right-icon li a{
+	text-decoration: none;
+	color: #151515;
+	display: block;
+	height: 80%;
+
+}
+.nav-right-icon li a:hover{
+	border-bottom: 2px solid #151515 ;
+}
+
+.banner{
+
+}
+.banner-img{
+	width: 100%;
+}
+.filter{
+	background: #263a49;
+}
+.home-filter{
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.filter-item{
+	padding-right: 50px;
+	
+}
+
+.filter-item__active{
+	position: relative;
+}
+
+.filter-item__active::after{
+	position: absolute;
+	content: "";
+	width: 78%;
+	height: 100%;
+	background: red;
+	top: 0;
+	background-color: rgba(107, 107, 107, 0.6) ;
+}
+
+.filter-item a{
+	display: block;
+	height: 250px;
+	position: relative;
+	width: 100%
+}
+
+.filter-item a:hover{
+	border-radius: 4px;
+	/* border: 1px solid red; */
+	
+	transform: translateY(10px);
+}
+
+.filter-item img {
+	height: 100%;
+	width: 100%;
+}
+
+.filter-item-price__active{
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	margin: 0px 0 12px 12px;
+}
+
+
+.filter-item-price__active p{
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	color: var(--white-color);
+}
+.filter-item-price__active span{
+	font-weight: 600;
+	color: var(--white-color);
+
+}
+
+.filter-item-price{
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	margin: 0px 0 12px 12px;
+}
+
+.filter-item-price p{
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	color: black;
+}
+
+.filter-item-price span{
+	font-weight: 600;
+}
+
+.container-self{
+	background: #f8f8f8;
+}
+
+.category{
+	padding-top: 60px;
+}
+.category h1{
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.category-filter{
+	line-height: 5rem;
+}
+
+.category-list{
+	list-style: none;
+	display: flex;
+	padding: 0; 
+	justify-content: center;
+}
+
+.category-item{
+	padding: 0 20px;
+	font-weight: 600;
+	
+}
+
+.category-item a{
+	text-decoration: none;
+	color: #151515;
+	display: block;
+	height: 80%;
+}
+
+.category-item a:hover{
+	border-bottom: 2px solid #151515 ;
+}
+
+.product{
+
+}
+
+.product img{
+	width: 100%;
+}
+
+.product-price{
+	margin-top: 20px;
+}
+
+.product-price a{
+	text-decoration: none;
+	
+
+}
+
+.product a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.product a:hover{
+	border-radius: 4px;
+	/* border: 1px solid red; */
+	box-shadow: 2px 2px 5px 5px #E4E4E4;
+	
+}
+
+.product-price p{
+	margin :  5px 0;
+	color: #454545;
+}
+.product-price span{
+	color: #151515 ;
+	font-weight: 700;
+	padding-right: 5px;
+
+}
+.product-price ul {
+	display: flex;
+	justify-content: space-between;
+	padding : 0;
+}
+.product-price li {
+	list-style: none;
+	text-transform: uppercase;
+	color: #151515 ;
+	font-weight: 700;
+}
+
+
+.box1 {
+	padding-bottom: 100px;
+}
+
+
+.all{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.all-header{
+	display: flex ;
+	justify-content: space-around;
+}
+
+.all-header h4{
+	padding :  15px;
+	/* display: block; */
+	border :  2px solid;
+	font-weight: 600;
+}
+
+.shop{
+
+}
+
+.shop-now{
+	position: relative;
+
+}
+
+.item-1{
+	position: absolute;
+	bottom: 260px;
+    left: 20px;
+    color: #151515;
+}
+
+.shop-now-item p{
+	width: 65px;
+}
+.shop-now-item p:hover{
+	border-bottom: 2px solid #151515;
+}
+
+.item-2 {
+	position: absolute;
+	bottom: 26px;
+    left: 20px;
+    color: white;
+}
+
+.item-3{
+	position: absolute;
+	bottom: 26px;
+    left: 20px;
+    color: #151515;
+}
+
+
+.item-4{
+	position: absolute;
+	bottom: 118px;
+    left: 20px;
+    color: #151515;
+}
+
+.sale{
+	margin-top: 100px;
+}
+
+.sale-heading h1{
+	font-weight: 700;
+}
+
+.sale-conainer {
+	border-bottom: 2px solid;
+    padding: 0;
+
+}
+
+.mail{
+	border: none;
+    outline: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color: #555;
+    width: 85%
+}
+
+.sale-conainer button{
+	border: none;
+	font-weight: 600;
+}
+
+.footer{
+	margin-top: 120px;
+	
+}
+
+.footer-icon span{
+	padding-right:15px;
+}
+
+.policy li{
+	color: #151515;
+	font-weight: 600;
+}
+
+.footer-text{	
+	margin-top: 40px;
+	background: #d7d7d7;
+}
+
+.footing{
+	display: flex;
+	justify-content: space-around;
+}
+
